@@ -25,8 +25,12 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['Chrome', 'ChromeHeadless', 'PhantomJS'],
     singleRun: false,
+    browserNoActivityTimeout: 100000,
+    browserDisconnectTolerance: 2,
+    browserDisconnectTimeout: 8000,
+    concurrency: 5,
     restartOnFileChange: true
   });
 };
