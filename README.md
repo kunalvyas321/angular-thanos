@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/kunalvyas321/angular-thanos/tree/master.svg?style=svg)](https://circleci.com/gh/kunalvyas321/angular-thanos/tree/master)
+
 # Angular-Thanos
 Google Thanos hand Angular implementation
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
